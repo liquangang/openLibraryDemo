@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OpenLibraryDemoTestObj.h"
 
 //! Project version number for openLibraryDemo.
 FOUNDATION_EXPORT double openLibraryDemoVersionNumber;
