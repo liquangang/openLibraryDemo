@@ -22,4 +22,10 @@
     NSLog(@"我是openLibraryDemo测试小方法2");
 }
 
+- (void)testThirdMethod{
+    NSLog(@"我是openLibraryDemo测试小方法3");
+    NSLog(@"我是openLibraryDemo测试小方法3");
+    NSLog(@"我是openLibraryDemo测试小方法3");
+}
+
 @end

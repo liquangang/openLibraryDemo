@@ -14,4 +14,6 @@
 
 - (void)testSecondMethod;
 
+- (void)testThirdMethod;
+
 @end
