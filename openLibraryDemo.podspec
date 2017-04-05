@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "openLibraryDemo"
-    s.version = "2.0.0"
+    s.version = "3.0.0"
     s.ios.deployment_target = '7.0'
     s.summary = "私有库测试demo"
     s.description = <<-DESC
