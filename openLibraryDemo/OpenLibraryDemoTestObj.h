@@ -1,5 +1,5 @@
 //
-//  TestObj.h
+//  OpenLibraryDemoTestObj.h
 //  openLibraryDemo
 //
 //  Created by quangang on 2017/4/5.
@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TestObj : NSObject
+@interface OpenLibraryDemoTestObj : NSObject
 
 - (void)testFirstMethod;
+
+- (void)testSecondMethod;
 
 @end

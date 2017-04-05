@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0707082B1E94955700D5178B /* OpenLibraryDemoTestObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 070708291E94955700D5178B /* OpenLibraryDemoTestObj.h */; };
+		0707082C1E94955700D5178B /* OpenLibraryDemoTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0707082A1E94955700D5178B /* OpenLibraryDemoTestObj.m */; };
 		07A847FE1E94910400657D3B /* openLibraryDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A847FC1E94910400657D3B /* openLibraryDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07A848061E94911500657D3B /* TestObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A848041E94911500657D3B /* TestObj.h */; };
-		07A848071E94911500657D3B /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A848051E94911500657D3B /* TestObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070708291E94955700D5178B /* OpenLibraryDemoTestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenLibraryDemoTestObj.h; sourceTree = "<group>"; };
+		0707082A1E94955700D5178B /* OpenLibraryDemoTestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenLibraryDemoTestObj.m; sourceTree = "<group>"; };
 		07A847F91E94910400657D3B /* openLibraryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = openLibraryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A847FC1E94910400657D3B /* openLibraryDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openLibraryDemo.h; sourceTree = "<group>"; };
 		07A847FD1E94910400657D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07A848041E94911500657D3B /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
-		07A848051E94911500657D3B /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 			children = (
 				07A847FC1E94910400657D3B /* openLibraryDemo.h */,
 				07A847FD1E94910400657D3B /* Info.plist */,
-				07A848041E94911500657D3B /* TestObj.h */,
-				07A848051E94911500657D3B /* TestObj.m */,
+				070708291E94955700D5178B /* OpenLibraryDemoTestObj.h */,
+				0707082A1E94955700D5178B /* OpenLibraryDemoTestObj.m */,
 			);
 			path = openLibraryDemo;
 			sourceTree = "<group>";
@@ -65,8 +65,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A848061E94911500657D3B /* TestObj.h in Headers */,
 				07A847FE1E94910400657D3B /* openLibraryDemo.h in Headers */,
+				0707082B1E94955700D5178B /* OpenLibraryDemoTestObj.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A848071E94911500657D3B /* TestObj.m in Sources */,
+				0707082C1E94955700D5178B /* OpenLibraryDemoTestObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +296,7 @@
 				07A848031E94910400657D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
